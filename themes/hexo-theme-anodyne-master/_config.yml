@@ -10,8 +10,8 @@ index_font_awesome_icon_css: fa fa-magic
 menu:
   Home: /
   Categories: /categories
-  Archives: /archives
-  About: /about.html
+  Tags: /tags
+  About: /about
 
 # Post
 default_post_title: Untitled
