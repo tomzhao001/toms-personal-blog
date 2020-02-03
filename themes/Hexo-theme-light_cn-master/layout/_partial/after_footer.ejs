@@ -1,0 +1,45 @@
+<script src="<%- config.root %>js/jquery.min.js"></script>
+<script src="<%- config.root %>js/jquery.imagesloaded.min.js"></script>
+<script src="<%- config.root %>js/gallery.js"></script>
+
+<!-- calendar widget -->
+<% if (theme.widgets.indexOf('calendar') != -1){ %>
+  <script src="<%- config.root %>js/calendar.js"></script>
+  <script src="<%- config.root %>js/languages.js"></script>
+  <script type="text/javascript">
+    $(function() {
+    <% if (theme.calendar.options){ %>
+      $('#calendar').aCalendar('<%= theme.calendar.language %>', $.extend(<%- JSON.stringify(theme.calendar.options ) %>, {single:<%= theme.calendar.single %>, root:'<%= theme.calendar.root %>'});
+    <% }else{ %>
+      $('#calendar').aCalendar('<%= theme.calendar.language %>',{single:<%= theme.calendar.single %>, root:'<%= theme.calendar.root %>'});
+    <% } %>
+    });
+  </script>
+<% } %>
+
+<!-- 百度统计 -->
+<% if(theme.baidu_tongji){ %>
+	<script>
+	var _hmt = _hmt || [];
+	(function() {
+	  var hm = document.createElement("script");
+	  hm.src = "//hm.baidu.com/hm.js?9acf0cedd48dc53be256ede5a98c2aaa";
+	  var s = document.getElementsByTagName("script")[0]; 
+	  s.parentNode.insertBefore(hm, s);
+	})();
+	</script>
+<% } %>
+
+<!-- fancybox -->
+<% if (theme.fancybox){ %>
+<link rel="stylesheet" href="<%- config.root %>fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="<%- config.root %>fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+<% } %>
+
+</body>
+</html>

@@ -1,7 +1,10 @@
 ---
 title: Airbnb JavaScript Style Guide
-categories: ["Javascript"]
-tags: ["Javascript", "CodeStandard"]
+categories: 
+- [Javascript, ESLint]
+tags: 
+- Javascript
+- ESLint
 ---
 
 

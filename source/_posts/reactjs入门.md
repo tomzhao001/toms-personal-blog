@@ -1,7 +1,10 @@
 ---
 title: Reactjs入门
-categories: ["React"]
-tags: ["react"]
+categories: 
+- [Javascript, React]
+tags: 
+- Javascript
+- React
 ---
 
 ## 搭建环境

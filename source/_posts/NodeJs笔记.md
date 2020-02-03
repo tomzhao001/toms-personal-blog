@@ -1,7 +1,10 @@
 ---
 title: NodeJS笔记
-categories: ["NodeJS"]
-tags: ["Javascript", "NodeJS"]
+categories: 
+- [Javascript, NodeJS]
+tags: 
+- Javascript
+- NodeJS
 ---
 
 ## `process.cwd()`, `./`, `__dirname` 和 `__filename` 的区别

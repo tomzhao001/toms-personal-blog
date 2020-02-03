@@ -2,7 +2,7 @@
     <h3><%- __('categories') %></h3>
     <% item.categories.forEach(function(category) { %>
         <p>
-            <a href="<%- config.root + category.path %>"><%= category.name %></a>
+            <a href="<%- config.root + category.path %>"><%= category.path %></a>
         </p>
     <% }) %>
 </div>

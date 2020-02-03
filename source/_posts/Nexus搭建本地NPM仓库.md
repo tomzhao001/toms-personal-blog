@@ -1,7 +1,10 @@
 ---
 title: Nexus搭建本地NPM仓库
-categories: ["Platform"]
-tags: ["Platform", "Nexus"]
+categories: 
+- [DevOps, Nexus]
+tags: 
+- DevOps
+- Nexus
 ---
 
 在nodejs的开发中，难免会想要去开发一点可重用的包，来方便别人和自己。在NPM官网上有非常详细的关于如何把包上传至NPM仓库的。不过毕竟有些有缺陷或者未完成的包，不好意思上传到公网，或者是公司内部项目要放到公司的私有仓库中。

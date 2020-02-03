@@ -1,0 +1,32 @@
+categories: 分类
+search: 搜索
+tags: 标签
+tagcloud: 标签云
+tweets: 推文
+prev: 上一页
+next: 下一页
+comment: 留言
+archive_a: 归档
+archive_b: 归档：%s
+page: 第 %d 页
+recent_posts: 最新文章
+calendar: 日历云
+
+home: 首页
+archives: 归档
+books: 电子书
+about: 关于我
+rss: 订阅
+customization: 留言
+
+name: 姓名
+birth: 出生年月
+birth_place: 出生地
+domicile_place: 户籍地
+address: 现居地址
+postcode: 邮编
+nation: 民族
+political_status: 政治面貌
+email: 邮箱
+phone: 电话
+highest_education: 最高学历

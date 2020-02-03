@@ -1,7 +1,11 @@
 ---
 title: ESLint笔记
-categories: ["ESLint"]
-tags: ["ESLint", "NodeJS", "Javascript"]
+categories: 
+- [Javascript, ESLint]
+tags: 
+- ESLint
+- NodeJS
+- Javascript
 ---
 
 # ESLint 概述

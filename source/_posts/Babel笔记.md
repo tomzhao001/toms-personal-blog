@@ -1,7 +1,10 @@
 ---
 title: Babel笔记
-categories: ["Babel"]
-tags: ["Javascript", "Babel"]
+categories:
+- [Javascript, Babel]
+tags: 
+- Javascript
+- Babel
 ---
 
 # Babel 概述

@@ -9,9 +9,14 @@ index_font_awesome_icon_css: fa fa-magic
 # Header
 menu:
   Home: /
+  JS: /categories/Javascript
   Categories: /categories
   Tags: /tags
   About: /about
+
+widgets:
+- search
+- category
 
 # Post
 default_post_title: Untitled

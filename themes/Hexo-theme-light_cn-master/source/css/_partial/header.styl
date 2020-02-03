@@ -1,0 +1,98 @@
+#header
+  margin-bottom 25px
+  i
+    margin-right 5px
+  .avatar
+    img
+      border-radius 50%
+      height 5em
+      float left
+      transition height 0.3s, transform 1s
+      @media screen and (max-width: 320px)
+        text-align center
+      &:hover
+        transform rotate(360deg)
+        -ms-transform rotate(360deg)  /* IE 9 */
+        -webkit-transform rotate(360deg) /* Safari and Chrome */
+        -o-transform rotate(360deg)    /* Opera */
+        -moz-transform rotate(360deg)    /* Firefox */
+
+  .header-div
+    a
+      font-family mistral 
+      font-size 1.2em
+
+  .header-content
+    padding 1.5em 0 1em 1em
+    @media screen and (max-width: 800px)
+      display none
+    .col-one
+      width 100%
+    .col-two
+      margin-left -50%
+      img
+        height 5em
+        @media screen and (max-width: 800px)
+          display none
+  
+  .header-nav
+    border-bottom 1px solid #eee
+    padding 1em 0
+    @media screen and (max-width: 800px)
+      background-color #333
+      border none
+  
+  .header-nav-content
+    a
+      // color #fff
+      text-decoration none
+      padding 1.1em 0.8em
+      // background-color color-link
+      &:hover
+        background-color #eee
+        color color-link
+    @media screen and (max-width: 800px)
+          a
+            font-size 0.8em
+            color #fff
+            &:hover
+              background-color #333
+              color #aaa
+            
+
+  #main-nav
+    font-family font-title
+    font-size 1.1em
+    @media screen and (max-width: 800px)
+      float none
+      text-align center
+    
+  #sub-nav
+    font-family font-title
+    font-size 1.1em
+    @media screen and (max-width: 800px)
+      display none
+
+  a
+    color #999
+    text-decoration none
+    &:hover
+      color color-link
+
+  h1
+    font-weight bold
+    font-size 2.5em
+    line-height 1
+    a
+      margin-left .5em
+
+  h2
+    font-weight normal
+    font-size 0.8em
+    line-height 1
+    margin-top 10px
+    a
+      margin-left 1.5em
+  
+
+

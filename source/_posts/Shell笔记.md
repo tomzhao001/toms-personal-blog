@@ -1,7 +1,10 @@
 ---
 title: Shell笔记
-categories: ["Linux"]
-tags: ["Linux", "Shell"]
+categories: 
+- [Linux, Shell]
+tags: 
+- Linux
+- Shell
 ---
 
 # Shell 命令

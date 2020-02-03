@@ -1,7 +1,10 @@
 ---
 title: Ubuntu常用命令
-categories: ["Linux"]
-tags: ["Linux", "Platform", "Ubuntu"]
+categories: 
+- [Linux, Ubuntu]
+tags: 
+- Linux
+- Ubuntu
 ---
 
 ## 软件安装

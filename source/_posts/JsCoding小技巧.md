@@ -1,7 +1,10 @@
 ---
 title: JS Coding 小技巧
-categories: ["Javascript"]
-tags: ["Javascript", "CodeStandard"]
+categories: 
+- [Javascript, CodeTips]
+tags:
+- Javascript
+- CodeTips
 ---
 
 在看别人的代码的时候，特别是各种源码，会发现一下让人醍醐灌顶的写法，为了防止看了就忘，看到的时候就记下来吧，嗯！
